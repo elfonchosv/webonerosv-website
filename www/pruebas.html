@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"  media="screen,projection"/>
+      
+      
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+
+            <nav>
+                    <div class="nav-wrapper">
+                      <div class="row">
+                        <div class="col s12">
+                          <a href="https://codepen.io/collection/nbBqgY" target="_blank" class="brand-logo">Materialize Framework</a>
+                          <ul class="right">
+                            <li><a id="mybtn" href="tel:15558675309" class="waves-effect waves-light btn btn-large">(555) 867-5309</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                  
+                  
+                  
+                  <!-- Tap Target Structure -->
+                    <div class="tap-target teal lighten-3" data-activates="mybtn">
+                      <div class="tap-target-content">
+                        <h5>Available: 24/7</h5>
+                        <p>Call us now to speak with someone about your matter.</p>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                  <!-- Gitter Chat Link -->
+                  <div id="gitter" class="fixed-action-btn"><a class="btn-floating btn-large red" href="https://gitter.im/Dogfalo/materialize" target="_blank"><i class="large material-icons">chat</i></a></div>
+
+        <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+      $(document).ready(function(){
+  $('.tap-target').tapTarget('open');
+});
+</script>
+    </body>
+  </html>
+        

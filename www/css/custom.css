@@ -1,0 +1,165 @@
+.card .card-content{
+    padding: 10px !important;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.foo-title{
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 16px;
+}
+.roboto{
+    /*font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;*/
+    line-height: 2;
+    color: white;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 2.5rem;
+    color:b#06121D;
+    line-height: 1.3;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    /*color:#7f7f7f;*/
+    margin-block-start:0px !important;
+}
+
+li{
+    font-family: 'Poppins', sans-serif;
+}
+.titu{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+.second{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+.third{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+}
+
+p{
+    font-size:17px;
+    font-weight:500;
+    font-family: 'Quicksand', sans-serif;
+    color: #333333de;
+}
+.texto_gris{
+    color:#a5a5a5;
+    font-size:15px;
+}
+#web{
+    background-image: url(img\web_design_webonero.png)
+}
+
+.hubspot-link__container {
+    visibility: hidden !important;
+}
+
+.color-white{
+    color:grey;
+}
+
+a.color-white:hover {
+    color: white;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .card .card-content{
+       /* min-height: 178px; */
+    }
+    /*.redes{
+        padding-top:80%;
+     }*/
+  }
+
+  @media only screen and (min-width: 1240px) {
+    .card .card-content{
+        /*min-height: 145px;*/
+    }
+    
+ /*.redes{
+    padding-top:80%;
+ }*/
+  }
+
+  #marcas{
+      background-image: url(..img/marcas.png);
+  }
+
+  .price{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+  .inline-icon {
+    vertical-align: bottom;
+    /*font-size: 18px !important;*/
+ }
+
+ .active {
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+  color: black !important;
+  }
+
+  .bg-image-1 {
+    background-image: url(https://pixinvent.com/materialize-material-design-admin-template/images/cards/macbook.png);
+    width: 100%;
+    background-size: cover;
+  }
+.poppins{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  
+}
+
+.texto_gris{
+    color: #a09e9e;
+}
+#alternativa{
+    padding-bottom:30px;
+}
+
+
+.hs-form-7dc64800-5c8c-4e93-be6d-0b2220ab56bd_fea40975-b45d-41c5-a23b-56c3519a45f8.hs-form, .hs-form-7dc64800-5c8c-4e93-be6d-0b2220ab56bd_fea40975-b45d-41c5-a23b-56c3519a45f8 label, .hs-form-7dc64800-5c8c-4e93-be6d-0b2220ab56bd_fea40975-b45d-41c5-a23b-56c3519a45f8 .hs-richtext, .hs-form-7dc64800-5c8c-4e93-be6d-0b2220ab56bd_fea40975-b45d-41c5-a23b-56c3519a45f8.submitted-message{
+    color: black !important;
+}
+
+.hs-form-7dc64800-5c8c-4e93-be6d-0b2220ab56bd_cf0643ba-b6b2-4ffd-b9df-74faf9f47e74.hs-form, .hs-form-7dc64800-5c8c-4e93-be6d-0b2220ab56bd_cf0643ba-b6b2-4ffd-b9df-74faf9f47e74 label, .hs-form-7dc64800-5c8c-4e93-be6d-0b2220ab56bd_cf0643ba-b6b2-4ffd-b9df-74faf9f47e74 .hs-richtext, .hs-form-7dc64800-5c8c-4e93-be6d-0b2220ab56bd_cf0643ba-b6b2-4ffd-b9df-74faf9f47e74.submitted-message{
+
+}
+
+.hs-form-7dc64800-5c8c-4e93-be6d-0b2220ab56bd_8dbbda4a-9af7-45eb-9918-f864f0ba86e3 label{
+    color: black !important;
+}
+
+.face{
+    background-color: #4267b2 !important;
+}
